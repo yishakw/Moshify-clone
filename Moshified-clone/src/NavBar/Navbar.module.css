@@ -1,0 +1,27 @@
+.nav_bar {
+  display: flex;
+  /* height: 10vh; */
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 0 0 0 20px;
+}
+.nav_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav_bar li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  /* float: left; */
+
+  margin: 0 10px;
+}

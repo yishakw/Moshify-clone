@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.logo img {
+  /* position: absolute; */
+  /* left: 100px; */
+}
+/* .logo h2 {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+} */
