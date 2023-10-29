@@ -21,7 +21,12 @@
   display: block;
   text-align: center;
   text-decoration: none;
+  color: wheat;
   /* float: left; */
 
   margin: 0 10px;
+}
+.nav-bar li:hover {
+  color: white;
+  cursor: pointer;
 }
