@@ -1,0 +1,25 @@
+.main_section {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  justify-content: space-around;
+  grid-auto-rows: minmax(40px, 100px);
+  background-color: black;
+  height: 90vh;
+}
+.main_section img {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+.main_section h1 {
+  align-self: end;
+  font-size: 4rem;
+}
+.main_section button {
+  align-self: start;
+}
+.main_section p {
+  /* height: 30px; */
+  /* position: absolute;
+  top: 500px;
+  left: 250px; */
+}
