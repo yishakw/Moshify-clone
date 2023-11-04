@@ -1,12 +1,12 @@
 .nav_bar {
   display: flex;
   /* height: 10vh; */
-  width: 100vw;
+  /* width: 100vw; */
   height: 50px;
-  background-color: black;
+  /* background-color: black; */
   color: white;
   justify-content: space-between;
-  padding: 0 0 0 20px;
+  padding: 10px 20px 0 20px;
 }
 .nav_bar ul {
   list-style-type: none;
@@ -18,15 +18,17 @@
   justify-content: flex-end;
 }
 .nav_bar li {
-  display: block;
-  text-align: center;
+  /* display: block; */
+  /* text-align: center; */
   text-decoration: none;
-  color: wheat;
+  color: rgb(248, 247, 246);
+  padding: 0 10px;
   /* float: left; */
 
   margin: 0 10px;
 }
 .nav-bar li:hover {
-  color: white;
+  color: rgb(241, 216, 216);
   cursor: pointer;
+  margin: 0 10px;
 }

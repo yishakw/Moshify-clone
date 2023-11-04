@@ -1,12 +1,14 @@
-import Navbar from "./NavBar/Navbar";
-import MainSection from "./Main/MainSection";
 import "./App.css";
+import FrontPage from "./Main/FrontPage";
+import SectionOne from "./sections/SectionOne";
+import SectionTwo from "./sections/SectionTwo";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <MainSection />
+      <FrontPage />
+      {/* <SectionOne />
+      <SectionTwo /> */}
     </>
   );
 }
