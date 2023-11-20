@@ -4,7 +4,7 @@ export default function MainSection() {
   return (
     <div className={styles.main_section}>
       <div className={styles.left}>
-        <h1>Cloud Hosting for Pros</h1>
+        <h1 className={styles.cloud}>Cloud Hosting for Pros</h1>
         <p>Deploy your websites in less than 60 seconds.</p>
         <button>GET STARTED</button>
       </div>

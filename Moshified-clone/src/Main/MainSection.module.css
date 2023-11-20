@@ -24,6 +24,8 @@
   /* top: -200px; */
   object-fit: contain;
   margin-left: -350px;
+  animation-name: emerge;
+  animation-duration: 2s;
 }
 .main_section h1 {
   align-self: center;
@@ -37,6 +39,9 @@
   /* margin-left: 155px; */
   text-align: left;
   margin: 0;
+  animation-name: emerge;
+  animation-duration: 2s;
+  animation-timing-function: ease;
 }
 .main_section button {
   align-self: start;
@@ -80,5 +85,22 @@
     height: 90vh;
     /* position: absolute;
     top: 300px; */
+  }
+}
+@keyframes emerge {
+  0% {
+    bottom: -100px;
+    left: -50px;
+    width: 0;
+  }
+  25% {
+    /* width: 100%;
+    height: 100%; */
+    top: 0;
+    left: 0;
+  }
+  50% {
+  }
+  100% {
   }
 }

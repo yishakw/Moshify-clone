@@ -1,3 +1,36 @@
 .section_two {
   color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 340px;
+  height: 485px;
+  border-radius: 60px;
+}
+.card header {
+  font-size: 15px;
+  text-align: start;
+
+  padding: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 0;
+  margin-bottom: -10px;
+}
+.card li {
+  /* list-style: none; */
+  width: 180px;
+  line-height: 30px;
+  color: var(--color-headings);
+  font-size: 18px;
+}
+.heading {
+  background-color: rgb(74, 155, 155);
+  height: 118px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}
+.price {
+  font-size: 70px;
 }

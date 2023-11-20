@@ -8,13 +8,13 @@ export default function SectionOne() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
         exercitationem?
       </p>
-      <div>
+      <div className={styles.inputs}>
         <input placeholder="Enter domain name here..." />
-        <button>search</button>
+        <button className={styles.button}>search</button>
       </div>
-      <ul>
+      <ul className={styles.ul}>
         <li>
-          <span>.com $9</span>
+          <span className={styles.li_com}>.com $9</span>
         </li>
         <li>.sg $10</li>
         <li>.space $11</li>

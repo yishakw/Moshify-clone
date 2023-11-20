@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <FrontPage />
-      {/* <SectionOne />
-      <SectionTwo /> */}
+      <SectionOne />
+      <SectionTwo />
     </>
   );
 }
